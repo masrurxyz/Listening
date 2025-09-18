@@ -109,8 +109,8 @@
     <div class="modal" aria-labelledby="modalTitle">
       <h2 id="modalTitle">Listening Topic : Song</h2>
       <div class="meta">
-        <div><strong>Name :</strong> <span id="songName">Ordinary</span></div>
-        <div style="margin-top:6px"><strong>Duration :</strong> <span id="songDuration">5 min</span></div>
+        <div><strong>Name :</strong> <span id="songName">Line Without</span></div>
+        <div style="margin-top:6px"><strong>Duration :</strong> <span id="songDuration">4 min</span></div>
       </div>
       <div style="display:flex;justify-content:space-between;align-items:center;gap:10px">
         <button id="startBtn" class="btn">Start Quiz</button>
@@ -123,8 +123,8 @@
   <div id="quizContainer" class="quiz-wrap" style="display:none">
     <div class="topbar">
       <div>
-        <div class="song-info"><strong>Listening Topic:</strong> Song — <span id="qcSongName">Imagine</span></div>
-        <div class="small" style="margin-top:6px"><strong>Duration:</strong> 5 min</div>
+        <div class="song-info"><strong>Listening Topic:</strong> Song — <span id="qcSongName">Line Without**</span></div>
+        <div class="small" style="margin-top:6px"><strong>Duration:</strong> 4.10</div>
       </div>
       <div style="text-align:right">
         <div class="small">Time remaining</div>
@@ -149,17 +149,17 @@
   <script>
     // Configuration: customize songName, duration and questions here
     const CONFIG = {
-      songName: "Ordinary",
-      durationMinutes: 3.50,
+      songName: "Line without",
+      durationMinutes: 4.30,
       // Simple sample questions: change texts and expectedAnswers (case-insensitive)
       questions: [
-        { prompt: "We'll make the mundane our_______", expectedAnswer: "masterpiece" },
-        { prompt: "You're takin' me out of the_______?", expectedAnswer: "ordinary" },
-        { prompt: "On the edge of your knife, stayin'_______on your vine", expectedAnswer: "drunk" },
-        { prompt: "You got me kissin' the_______of your sanctuary", expectedAnswer: "ground" },
-        { prompt: "Shatter me with your touch, oh_______return me to dust", expectedAnswer: "lord" },
-        { prompt: "Somethin' so heavenly,_______than ecstasy", expectedAnswer: "higher" },
-        { prompt: "I want you layin' me down 'til we're_______and buried", expectedAnswer: "dead" }
+        { prompt: "when we're _______", expectedAnswer: "alone" },
+        { prompt: "If I went and hurt my body,_______would you love me the same?", expectedAnswer: "baby" },
+        { prompt: "I can feel all my bones'_______back, and I'm craving motion", expectedAnswer: "coming" },
+        { prompt: "You're a pond, and I'm an_______oh",expectedAnswer: "ocean" },
+        { prompt: "I broke all my_______that day I found you", expectedAnswer: "bones" },
+        { prompt: "Was it something I said to make you feel like you're a,_______", expectedAnswer: "burden" },
+        { prompt: "Cause there is something and there is_______", expectedAnswer: "nothing" }
       ]
     };
 
